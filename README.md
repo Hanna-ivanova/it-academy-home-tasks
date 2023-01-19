@@ -1,1 +1,1 @@
-# it-academy-home-tasks
+# it-academy-homework
