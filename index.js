@@ -15,3 +15,15 @@ while (chessline.length < 64) {
     console.log (chessline.substring(1, 9));
     console.log (chessline.substring(2, 9));
 }
+
+// task 3
+let someNumber = 0;
+do {
+  someNumber = prompt("Enter any number greater than 100");
+}
+while (someNumber < 100  && someNumber);
+while (someNumber.replace (/\d/g, '').length) 
+do {
+  someNumber = prompt("Enter any number greater than 100");
+}
+while (someNumber < 100  && someNumber);
