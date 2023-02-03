@@ -46,3 +46,17 @@ function validateEmail(email) {
     for (let i=0; i< array.length; i++) {
       console.log(validateEmail(array[i]));
     }
+
+  const arr = [1, 5, 7, -5, 13, -6, 0];
+  function positive (value) {
+    return value > 0;
+}
+
+//lesson 4
+
+const filtered = arr.filter(positive);
+console.log(filtered);
+
+const checkIfEven = (currentValue) => currentValue >= 0 && currentValue%2 ==0;
+const array = [4, 6, 6, 8, 8];
+console.log(array.every(checkIfEven));
